@@ -1,15 +1,1 @@
-package day7assignments;
 
-import java.util.Scanner;
-
-public class RemoveWhiteSpaces {
-
-	public static void main(String[] args) {
-		
-	//Assignment 1 - remove spaces in the string
-		
-		String s = "We l c ome   to U  s";
-		String s1 = "";
-		s1 = s.replace(" ","");
-		System.out.println("The new string without spaces is :-" +s1);
-		
